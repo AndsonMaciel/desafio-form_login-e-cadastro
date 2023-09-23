@@ -1,0 +1,102 @@
+:root {
+    --color-usually: #3a68b7;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-usually);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 35em;
+    background-color: white;
+    padding: 1em;
+    box-shadow: -10px 0 rgba(0, 0, 0, .5);
+
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label,
+input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    text-transform: uppercase;
+    color: gray;
+}
+
+input {
+    border: 2px solid transparent;
+    border-bottom-color: #5895ff;
+    padding: .75em;
+    margin: .5em 0 2.75em;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #5895ff;
+}
+
+legend {
+    font-weight: 300;
+    font-size: 2.5em;
+    color: var(--color-usually);
+    padding: .5em 0;
+
+}
+
+.btn {
+    background-color: #3a68b7;
+    color: white;
+    border: none;
+    padding: 1em 1.5em;
+    text-transform: uppercase;
+    width: fit-content;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .3em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 .5em;
+}
+
+.cad {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-usually);
+    font-weight: bold;
+    flex: 1;
+    margin-left: .75em;
+}
+
+.rec{
+    display: inline-block;
+    font-size: .8em;
+}
+
+.log{
+    font-size: .8em;
+}
