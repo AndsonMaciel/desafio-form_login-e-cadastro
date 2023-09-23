@@ -14,22 +14,22 @@
 </head>
 
 <body>
-    <form action="" autocomplete="off">
-        <fieldset>
-            <legend>Login</legend>
-            <label for="user">Usuário</label>
-            <input type="text" name="user" id="user" required class="user">
+    <form action="" method="get" autocomplete="off" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__title">Login</legend>
+            <label for="user" class="form__label">Usuário</label>
+            <input type="text" name="user" id="user" required class="form__input">
 
 
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password" required class="password">
+            <label for="password" class="form__label">Senha</label>
+            <input type="password" name="password" id="password" required class="form__input">
 
-            <div class="container">
+            <div class="form__action">
                 <button type="submit" value="login" class="btn">Login</button>
 
                 <a href="cadastro.html" class="cad">Cadastre-se</a>
-            
-                <a href="#" class="rec">Esqueci minha senha</a>
+
+                <a href="#">Esqueci minha senha</a>
             </div>
         </fieldset>
     </form>
