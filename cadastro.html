@@ -14,23 +14,23 @@
 </head>
 
 <body>
-    <form action="" autocomplete="off">
-        <fieldset>
-            <legend>Cadastre-se</legend>
-            <label for="user">Usuário</label>
-            <input type="text" name="user" id="user" required class="user">
+    <form action="" method="get" autocomplete="off" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__title">Cadastre-se</legend>
+            <label for="user" class="form__label">Usuário</label>
+            <input type="text" name="user" id="user" required class="form__input">
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required class="email">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" name="email" id="email" required class="form__input">
 
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password" required class="password">
+            <label for="password" class="form__label">Senha</label>
+            <input type="password" name="password" id="password" required class="form__input">
 
-            <div class="container">
-            <button type="submit" value="cadastro" class="btn">Cadastre-se</button>
+            <div class="form__action">
+                <button type="submit" value="cadastre-se" class="btn btn-primary">Cadastre-se</button>
 
-            <p class="log">Já possui login? <a href="index.html">Faça login</a></p>
-        </div>
+                <p class="form__action__aside">Já possui login? <a href="index.html" class="form__action__link">Faça login</a></p>
+            </div>
         </fieldset>
     </form>
 </body>
